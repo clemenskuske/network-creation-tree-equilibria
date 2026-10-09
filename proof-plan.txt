@@ -1,0 +1,22 @@
+Theorem 3 proof, approved concepts unchanged.
+
+1. TreeGeometry: unique paths, path separation, an integer midpoint.
+2. Costs: finite real costs on connected profiles; unilateral insertion/deletion.
+3. Nash diameter: two endpoints insert a link to the midpoint; combined savings
+   at every vertex are at least floor(distance/2)-1. Nash gives total savings
+   at most 2 alpha, hence distance <= 3 + 4 alpha/n.
+4. Ownership: a Nash equilibrium never purchases an edge twice; in a tree
+   the total number of purchases is n-1.
+5. Optimum: every connected profile buys at least n-1 edges and pays at least
+   n(n-1) in distances; disconnected profiles have infinite cost.
+6. Conclusion: tree cost <= 5 alpha(n-1)+3 n(n-1), whereas
+   OPT >= alpha(n-1)+n(n-1)>0, yielding the strict ratio <5.
+
+All supporting results belong to the proof package. No concept axioms may be
+used, including the target statement. Final validation includes LAX replay
+and inspection of the empty nonbackground assumption set.
+
+All six layers compile in the pinned Lean/mathlib environment. The annotated
+conclusion is Lax899194Proofs.tree_nash_efficiency. Concepts remain unchanged.
+Full LAX validation and kernel replay pass. The conclusion has no unproved
+assumptions; only Lean's permitted background axioms occur.
