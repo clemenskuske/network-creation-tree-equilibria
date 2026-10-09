@@ -19,7 +19,7 @@ purchase an edge. No absence of double purchases is assumed in this definition.
 namespace Lax899194.SocialCost
 
 open Lax899194.NetworkCreationGame Lax899194.PlayerCost
-open scoped BigOperators
+open scoped BigOperators NNReal ENNReal
 
 /-- The sum of all players' individual costs, with distances counted in both directions. -/
 noncomputable def socialCost {n : ℕ} (α : ℝ≥0) (s : Profile n) : ℝ≥0∞ :=

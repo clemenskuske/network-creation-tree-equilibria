@@ -32,7 +32,7 @@ abbrev Profile (n : ℕ) := (i : Fin n) → Strategy n i
 /-- The undirected network formed by all purchased edges. -/
 def graph {n : ℕ} (s : Profile n) : SimpleGraph (Fin n) where
   Adj i j := j ∈ (s i).val ∨ i ∈ (s j).val
-  symm := fun _ _ h => h.elim Or.inr Or.inl
-  loopless := fun i h => h.elim (s i).property (s i).property
+  symm := ⟨fun _ _ h => h.elim Or.inr Or.inl⟩
+  loopless := ⟨fun i h => h.elim (s i).property (s i).property⟩
 
 end Lax899194.NetworkCreationGame

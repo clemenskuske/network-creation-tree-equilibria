@@ -24,6 +24,7 @@ after any unilateral deviation.
 namespace Lax899194.NashEquilibrium
 
 open Lax899194.NetworkCreationGame Lax899194.PlayerCost
+open scoped NNReal
 
 /-- No unilateral replacement of a player's strategy lowers that player's cost. -/
 def IsNashEquilibrium {n : ℕ} (α : ℝ≥0) (s : Profile n) : Prop :=

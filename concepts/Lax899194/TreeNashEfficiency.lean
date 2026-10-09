@@ -30,6 +30,7 @@ namespace Lax899194.TreeNashEfficiency
 
 open Lax899194.NetworkCreationGame Lax899194.NashEquilibrium
 open Lax899194.InefficiencyRatio
+open scoped NNReal
 
 /-- Theorem 3: every tree Nash equilibrium has inefficiency strictly below five. -/
 axiom statement (n : ℕ) (hn : 2 ≤ n) (α : ℝ≥0) (hα : 0 < α)

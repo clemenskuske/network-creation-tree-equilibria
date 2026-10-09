@@ -25,7 +25,7 @@ The edge price is a finite nonnegative real; the theorem assumes it is positive.
 namespace Lax899194.PlayerCost
 
 open Lax899194.NetworkCreationGame
-open scoped BigOperators
+open scoped BigOperators NNReal ENNReal
 
 /-- Edge expenditure plus the sum of distances from player `i` to all players. -/
 noncomputable def playerCost {n : ℕ} (α : ℝ≥0) (s : Profile n)

@@ -25,6 +25,7 @@ the worst ratio over all equilibria is the price of anarchy.
 namespace Lax899194.InefficiencyRatio
 
 open Lax899194.NetworkCreationGame Lax899194.SocialCost
+open scoped NNReal ENNReal
 
 /-- The least social cost among all strategy profiles with `n` players. -/
 noncomputable def optimalCost (n : ℕ) (α : ℝ≥0) : ℝ≥0∞ :=
