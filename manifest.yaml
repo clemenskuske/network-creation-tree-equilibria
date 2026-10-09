@@ -1,0 +1,18 @@
+specVersion: "1"
+id: lax-899194
+leanVersion: "v4.33.0"
+mathlibVersion: "db584cd6d46c92f209a44c0f1c829460d327499d"
+title: "Tree Nash Equilibria in the Network Creation Game"
+authors: []
+bibEntries:
+  - |
+    @inproceedings{FabrikantLuthraManevaPapadimitriouShenker2003,
+      author = {Alex Fabrikant and Ankur Luthra and Elitza Maneva and Christos H. Papadimitriou and Scott Shenker},
+      title = {On a Network Creation Game},
+      booktitle = {Proceedings of the Twenty-Second Annual Symposium on Principles of Distributed Computing},
+      year = {2003},
+      pages = {347--351},
+      publisher = {ACM},
+      doi = {10.1145/872035.872088},
+      url = {https://people.eecs.berkeley.edu/~kubitron/courses/cs294-4-F03/papers/p347-fabrikant.pdf}
+    }
