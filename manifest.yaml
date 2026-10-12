@@ -16,3 +16,6 @@ bibEntries:
       doi = {10.1145/872035.872088},
       url = {https://people.eecs.berkeley.edu/~kubitron/courses/cs294-4-F03/papers/p347-fabrikant.pdf}
     }
+issue:
+  repositoryId: 1320232165
+  number: 192
